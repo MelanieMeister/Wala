@@ -1,0 +1,53 @@
+@import "../scss/config.scss";
+
+
+.gridProduct{
+    display: grid;
+    /*grid-template-columns: 20% 80%;*/
+    /*grid-template-rows: 50px 50px;*/
+    grid-row-gap: 0.5em;
+    /*height: 85%;*/
+    grid-template-columns: 20% 80%;
+    border-color: #8CB738;
+    border-width: 2px;
+
+
+    /*grid-template-columns: auto auto;*/
+}
+.gridProduct> div.order-card-way {
+    text-align: center;
+    align-self: center;
+    vertical-align: middle;
+
+}
+.order-card-way{
+    /*text-align: left;*/
+    /*width: 55px;*/
+    /*margin: 30px;*/
+    font-family: Roboto;
+    font-size: 15px;
+    letter-spacing: 0;
+    color: #434343;
+    opacity: 1;
+}
+
+.order-card{
+
+    background: var(--white) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #2626267B;
+    opacity: 1;
+
+    /*margin-top: 20px;*/
+    /*margin-bottom: 20px;*/
+    padding: 20px;
+
+    /*width: 200px*/
+}
+.order-date{
+    text-align: left;
+    font-family: Roboto;
+    font-size: 20px;
+    letter-spacing: 0;
+    color: #969696;
+    opacity: 1;
+}

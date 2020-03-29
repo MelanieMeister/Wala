@@ -1,0 +1,23 @@
+/*Variables*/
+$black: rgba(35, 35, 35, 0.94);
+
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+a{
+}
+
+@mixin translate($e){
+-webkit-transform: translateY($e);
+  -moz-transform: translateY($e);
+  transform: translateY($e);
+}
+
+@mixin transition($e){
+  -webkit-transition: translateY($e);
+  -moz-transition: translateY($e);
+  transition: translateY($e);
+}

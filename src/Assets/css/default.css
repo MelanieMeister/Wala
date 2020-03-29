@@ -1,0 +1,15 @@
+@import "../scss/config.scss";
+
+:root{
+    --backgroundColor: #282c34;
+    --textColor: #831e97;
+    --orange: #F26944;
+    --green: #8CB738;
+    --grey: #0000004E;
+    --blue: #4285F4;
+    --black: #191626;
+    --white: white;
+    --icon-color: white;
+    --icon-hover-color: var(--orange);
+    --font: Roboto;
+}

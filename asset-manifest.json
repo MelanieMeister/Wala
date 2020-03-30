@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/MelanieMeister/Wala.git/static/css/main.b3db496a.chunk.css",
+    "main.js": "/MelanieMeister/Wala.git/static/js/main.242f967e.chunk.js",
+    "main.js.map": "/MelanieMeister/Wala.git/static/js/main.242f967e.chunk.js.map",
+    "runtime-main.js": "/MelanieMeister/Wala.git/static/js/runtime-main.c0d54aeb.js",
+    "runtime-main.js.map": "/MelanieMeister/Wala.git/static/js/runtime-main.c0d54aeb.js.map",
+    "static/js/2.524f2ac9.chunk.js": "/MelanieMeister/Wala.git/static/js/2.524f2ac9.chunk.js",
+    "static/js/2.524f2ac9.chunk.js.map": "/MelanieMeister/Wala.git/static/js/2.524f2ac9.chunk.js.map",
+    "index.html": "/MelanieMeister/Wala.git/index.html",
+    "precache-manifest.9ea6604a0016e7d153aa899387e1020c.js": "/MelanieMeister/Wala.git/precache-manifest.9ea6604a0016e7d153aa899387e1020c.js",
+    "service-worker.js": "/MelanieMeister/Wala.git/service-worker.js",
+    "static/css/main.b3db496a.chunk.css.map": "/MelanieMeister/Wala.git/static/css/main.b3db496a.chunk.css.map",
+    "static/js/2.524f2ac9.chunk.js.LICENSE.txt": "/MelanieMeister/Wala.git/static/js/2.524f2ac9.chunk.js.LICENSE.txt",
+    "static/media/Layer.svg": "/MelanieMeister/Wala.git/static/media/Layer.4f786a64.svg",
+    "static/media/Logo.svg": "/MelanieMeister/Wala.git/static/media/Logo.4f4760b3.svg",
+    "static/media/welcome.css": "/MelanieMeister/Wala.git/static/media/background.692da951.png",
+    "static/media/products.css": "/MelanieMeister/Wala.git/static/media/team_logo.9a21d26c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c0d54aeb.js",
+    "static/js/2.524f2ac9.chunk.js",
+    "static/css/main.b3db496a.chunk.css",
+    "static/js/main.242f967e.chunk.js"
+  ]
+}

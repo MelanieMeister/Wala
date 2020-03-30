@@ -15,7 +15,7 @@ class ProfileHeader extends Component {
 
     render() {
         return (
-            <div>
+            <div className=" d-md-none ">
 
                 <div className="container">
 

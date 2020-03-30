@@ -1,13 +1,10 @@
 import React, {Component} from 'react';
-import NavigationBar from './compenents/NavigationBar';
-import Footer from './compenents/Footer';
 import Homepage from './compenents/pages/Homepage';
 
 import './Assets/css/default.css';
 import {
     BrowserRouter as Router,
-    Route,
-    Link
+    Route
 }from 'react-router-dom';
 import Orders from "./compenents/orders/Orders";
 import Welcome from "./compenents/pages/Welcome";

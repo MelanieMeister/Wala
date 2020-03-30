@@ -4,8 +4,6 @@ import '../../Assets/css/default.css';
 import NavigationBar from "../NavigationBar";
 import Footer from "../Footer"
 import Avatar from "react-avatar";
-import ProfileHeader from "./ProfileHeader";
-import {db} from "../../Fire";
 class Profile extends Component {
 
     constructor() {

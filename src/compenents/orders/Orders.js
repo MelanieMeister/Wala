@@ -1,7 +1,6 @@
 import React, {Component, Link} from 'react';
 import '../../Assets/css/default.css';
 import '../../compenents/pages/Welcome';
-// import {Route, withRouter} from 'react-router-dom';
 import NavigationBar from "../NavigationBar";
 import Footer from "../Footer"
 import {db} from "../../Fire";

@@ -22,9 +22,9 @@ class NavigationBar extends Component {
 
 
                 {/*show desktop*/}
-                <nav className="big_image d-none d-md-block navbar navbar-expand-lg navbar-light bg-light">ad
-                    <div className="collapse navbar-collapse" id="navbarNav">dd
-                        <ul className="navbar-nav">ss
+                <nav className="big_image d-none d-md-block navbar navbar-expand-lg navbar-light bg-light" id={"desktop-header"}>
+                    <div className="collapse navbar-collapse" id="navbarNav">
+                        <ul className="navbar-nav">
                             <li className="nav-item active">
                                 <a className="nav-link" href="/Orders">Orders<span className="sr-only">(current)</span></a>
                             </li>

@@ -63,7 +63,6 @@ h1{
    background: transparent url('../resources/Logo2.png') 0% 0% no-repeat padding-box;
    size: 40px;
    opacity: 1;
-   display: block;
    z-index: -1;
 }
 #logo{
@@ -71,9 +70,7 @@ h1{
    left: 112px;
    width: 151px;
    height: 60px;
-   /*background: transparent url('../resources/Logo2.png') 0% 0% no-repeat padding-box;*/
    opacity: 1;
-   display: block;
    text-align: center;
    z-index: -1;
 }
@@ -84,11 +81,6 @@ h1{
    border-radius: 5px;
 }
 #layer{
-   /*top: 545px;*/
-   /*left: 112px;*/
-   /*width: 151px;*/
-   /*height: 230px;*/
-   /*background: transparent url('../resources/Layer.png') 0% 0% no-repeat padding-box;*/
    opacity: 1;
    display: block;
    text-align: center;
@@ -105,7 +97,6 @@ h1{
    left: 107px;
    width: 161px;
    height: 26px;
-   /*text-align: left;*/
    font: Bold 20px/26px Roboto;
    letter-spacing: 0;
    color: #FFFFFF;
@@ -170,6 +161,9 @@ h1{
    margin-bottom: 5%;
 }
 .login-form-1{
+   padding: 5%;
+}
+.register-form{
    padding: 5%;
    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
 }

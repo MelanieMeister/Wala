@@ -10,7 +10,7 @@ class Footer extends Component {
                 <div className="row">
                     <div className="col-md-3 footer-brand animated fadeInLeft">
                         <h2>Logo</h2>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet</p>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor...</p>
                         <p>© 2020, All rights reserved</p>
                     </div>
                     <div className="col-md-4 footer-nav animated fadeInUp">

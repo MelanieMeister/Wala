@@ -4,12 +4,13 @@ import '../../Assets/css/nav.css';
 // import Image from 'react-bootstrap/Image'
 import Avatar from 'react-avatar';
 
-class ProfileHeader extends Component{
+class ProfileHeader extends Component {
     constructor(props) {
         super(props);
-        this.state ={
+        this.state = {
             email: ''
         }
+
     }
 
     render() {
@@ -20,18 +21,35 @@ class ProfileHeader extends Component{
 
                     <div className="row align-items-center">
                         <h2 className="col align-baseline ">
-                           HEADER
+                            {this.props.headerName}
                         </h2>
-                        <div className="col-auto">
-                            <Avatar name="Foo Bar" size="50" round={true} className="profile-avatar"/>
-                        </div>
-
+                        {
+                            this.avatarShowing(this.props.showAvatar)
+                        }
                     </div>
                 </div>
 
 
             </div>
         );
+    }
+
+    /**
+     * show the avatar if it is needed. He will be at the right
+     * side of the GUI.
+     * @param props define if the avatar should be shown
+     * @returns { nothing or the rendered avatar }
+     */
+    avatarShowing(props) {
+        if(props){
+            return (
+
+                <div className="col-auto">
+                    <Avatar name="Foo Bar" size="50" round={true} className="profile-avatar"/>
+                </div>
+            );
+        }
+
     }
 }
 

@@ -1,7 +1,7 @@
 @import "../scss/config.scss";
 
 :root{
-    --backgroundColor: #282c34;
+    --backgroundColor: #EBEBEB;
     --textColor: #831e97;
     --orange: #F26944;
     --green: #8CB738;
@@ -12,4 +12,12 @@
     --icon-color: white;
     --icon-hover-color: var(--orange);
     --font: Roboto;
+    --font-header: 26px;
+    --font-size1: 24px;
+    --font-size2: 20px;
+    --font-size3: 16px;
+    --small-stock-color: #D74538;
+    --big-stock-color: #97BD65;
+    --medium-stock-color:#E3B947;
+
 }

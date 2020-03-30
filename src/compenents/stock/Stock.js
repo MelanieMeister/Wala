@@ -17,14 +17,14 @@ class Stock extends Component {
             <div id="stock">
                 <NavigationBar  headerName={"Stock"} showAvatar={true}></NavigationBar>
                 {
-                    //show a list of pr0oducts
+                    //show a list of products
                     this.state.products &&
                         this.state.products.map(p=>{
                             return(
                                 <div className="order-card stock-card align-middle">
                                     <div className="container stockGrid">
                                         <div className="row firstCol">
-                                            <img className="stockImage" src={this.getImage(p.imageUrl)}/>
+                                            <img className="stockImage" src={p.imageUrl}/>
                                         </div>
                                         <div className="secondCol col-sm-9">
                                             <h2 className="">{p.name}</h2>
